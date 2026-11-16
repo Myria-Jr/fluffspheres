@@ -35,4 +35,4 @@ cd tools && npm install && node build.js     # erzeugt dist/index.html (+ kopier
 cd ../android && ./gradlew assembleRelease   # erzeugt app/build/outputs/apk/release/app-release.apk
 ```
 
-Der Code liegt modular in `src/js/` (01-core … 16-main) und wird von `tools/build.js` zu einer Datei gebündelt. GitHub Actions baut die APK bei jedem Push automatisch.
+Der Code liegt modular in `src/js/` (01-core … 16-main) und wird von `tools/build.js` zu einer Datei gebündelt. Eine GitHub-Actions-Vorlage zum automatischen APK-Bau liegt unter `tools/ci/android.yml` (nach `.github/workflows/` verschieben, um sie zu aktivieren).
