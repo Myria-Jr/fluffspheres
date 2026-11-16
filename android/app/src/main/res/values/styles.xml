@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="splash">#F6DFF3</color>
+  <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+    <item name="android:windowBackground">@color/splash</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:navigationBarColor">@android:color/transparent</item>
+  </style>
+</resources>
